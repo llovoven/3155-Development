@@ -1,6 +1,6 @@
 <h1><center>Create Your Note</center></h1>
-<center>
 <%= form_for :note, url: notes_path do |f| %>
+<center>
     <p>
         <%= f.label :title %><br>
         <%= f.text_field :title %>
@@ -8,7 +8,7 @@
     
     <p>
         <%= f.label :text %><br>
-        <%= f.text_area :title %>
+        <%= f.text_area :text %>
     </p>
     
     <p>
