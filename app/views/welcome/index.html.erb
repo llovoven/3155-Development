@@ -1,3 +1,21 @@
-<h1><center>Welcome to Our Sticky Notes Web Application</center></h1>
-<p><center>GROUP 16 3155</center></p>
-<center><a href="https://2a445f1985b74074ad678b2042e76edb.vfs.cloud9.us-east-2.amazonaws.com/notes">Proceed To Notes</a></center>
+<!DOCTYPE html>
+<center>
+<body>
+    <h1><center>Welcome to Our Sticky Notes Web Application</center></h1>
+    <p><center>GROUP 16 3155</center></p>
+	<header>
+		<div class= "container">
+			<img src="" class="logo">       <!--This code is for my nav bar. It is repeated through all html files to maintain consistency-->
+			<nav>
+		`		<ul>
+					<li><%= link_to 'Proceed to Notes', controller: 'notes' %></li>
+					<li><%= link_to 'Create a Note', controller: 'notes' %></a></li>
+					<li><%= link_to 'Notes List', controller: 'notes' %></a></li>
+					<li><%= link_to 'Contact', controller: 'notes' %></a></li>
+				</ul>
+			</nav>
+		</div>
+		
+	</header>
+</body>
+</center>

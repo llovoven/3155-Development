@@ -1,12 +1,50 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
- h1 {
-font-size: 40px;
-font-family: somethingfancy_or_not, arial;
-text-align: center;
+body {
+	font-family: Calibri, sans-serif;
+	color: black;
+	background-image: url("https://assets.rbl.ms/10809163/origin.jpg");
+    background-color: #cccccc;
+    background-size: 1450px;
+	
 }
-.center {
-  text-align: center;
-  border: 3px solid green;
+h1 {
+    font-family: Calibri, sans-serif;
+	color: black;
+}
+p {
+	font-family: Calibri, sans-serif;
+    color: black;
+}
+nav {
+	float: right;
+}
+nav ul {
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 30px;
+	padding-top: 110px;
+	padding-right: 80px;
+}
+
+nav a {
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 40px;
+	color: black;
+}
+
+nav a:hover{
+	color: gray;
+}
+main {
+	margin-top: 50px;
+	margin-left: 80px;
+	margin-right: 80px;
+	
 }

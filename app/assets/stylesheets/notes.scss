@@ -1,10 +1,20 @@
 // Place all the styles related to the Notes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-h1 {
-font-size: 40px;
-color: green;
-font-family: somethingfancy_or_not, arial;
+body {
+	font-family: Calibri, sans-serif;
+    background-color: white;
+	color: black;
+	
+}
+ h1 {
+    font-family: Calibri, sans-serif;
+    background-color: white;
+	color: black;
+}
+.center {
+  text-align: center;
+  border: 3px solid green;
 }
 input[type=text]{
     width: 50%;
