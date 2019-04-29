@@ -1,17 +1,18 @@
 <h1>Listing All Available Notes</h1>
-<%= link_to 'Create a New Stick Note', new_note_path %>
- 
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Text</th>
-  </tr>
- 
-  <% @notes.each do |note| %>
+<center>
+  <%= link_to 'Create a New Stick Note', new_note_path %>
+  <table>
     <tr>
-      <td><%= note.title %></td>
-      <td><%= note.text %></td>
-      <td><%= link_to 'Show', note_path(note) %></td>
+      <th>Title</th>
+      <th>Text</th>
     </tr>
-  <% end %>
-</table>
+   
+    <% @notes.each do |note| %>
+      <tr>
+        <td><%= note.title %></td>
+        <td><%= note.text %></td>
+        <td><%= link_to 'Show', note_path(note) %></td>
+      </tr>
+    <% end %>
+  </table>
+</center>

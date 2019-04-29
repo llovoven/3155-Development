@@ -13,8 +13,11 @@ class NotesController < ApplicationController
     def create
         @note = Note.new(note_params)
         
-        @note.save
-        redirect_to @note
+        if @note.save
+           redirect_to @note
+        else
+            render 'new'
+        end
     end
 end
 
