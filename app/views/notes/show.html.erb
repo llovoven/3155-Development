@@ -1,12 +1,14 @@
 <body>
-<p>
-    <strong>Sticky Note:</strong>
-    <%= @note.title %>
-</p>
-
-<p>
-    <strong>Text:</strong>
-    <%= @note.text %>
-</p>
-<%= link_to 'Note List', notes_path %>
+<center>
+    <p>
+        <strong>Sticky Note:</strong>
+        <%= @note.title %>
+    </p>
+    
+    <p>
+        <strong>Text:</strong>
+        <%= @note.text %>
+    </p>
+    <%= link_to 'Notes List', notes_path %>
+</center>
 </body>
