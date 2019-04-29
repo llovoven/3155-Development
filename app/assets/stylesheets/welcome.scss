@@ -4,14 +4,14 @@
 body {
 	font-family: Calibri, sans-serif;
 	color: black;
-	background-image: url("https://assets.rbl.ms/10809163/origin.jpg");
-    background-color: #cccccc;
-    background-size: 1450px;
+	background-image: url("0912161654b.jpg");
+    background-size: 1420px;
 	
 }
 h1 {
-    font-family: Calibri, sans-serif;
-	color: black;
+	font-family: Calibri, sans-serif;
+	background-color: none;
+	color: green;
 }
 p {
 	font-family: Calibri, sans-serif;
@@ -40,7 +40,7 @@ nav a {
 }
 
 nav a:hover{
-	color: gray;
+	color: green;
 }
 main {
 	margin-top: 50px;
